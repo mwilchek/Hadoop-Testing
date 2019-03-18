@@ -1,10 +1,10 @@
-# Assignment - Pig and Hive (10 points)
+# EMR Testing - Pig and Hive
 
-**You should thoroughly read through the entire assignment before beginning your work!**
+**You should thoroughly read through the entire exercise before beginning!**
 
 ## Pig and Hive Problem Set
 
-In this assignment, you will be working with a large subset of a much larger dataset. The dataset you will be using is called the Google Ngram Dataset. You can read more about it here: [http://storage.googleapis.com/books/ngrams/books/datasetsv2.html](http://storage.googleapis.com/books/ngrams/books/datasetsv2.html)
+In this exercise, you will be working with a large subset of a much larger dataset. The dataset you will be using is called the Google Ngram Dataset. You can read more about it here: [http://storage.googleapis.com/books/ngrams/books/datasetsv2.html](http://storage.googleapis.com/books/ngrams/books/datasetsv2.html)
 
 The 2-grams, or bigrams dataset has been obtained from Google, unzipped, and placed in the `s3://bigdatateaching/bigrams/` bucket. You can read what a bigram is here: [https://en.wikipedia.org/wiki/Bigram](https://en.wikipedia.org/wiki/Bigram). This dataset is 30,865,914,791 (yes - 30 billion) records and is about 780 GiB (gigabytes.) 
 
@@ -145,7 +145,7 @@ cat /mnt/var/lib/info/instance.json > master-instance.json
 cat /mnt/var/lib/info/extraInstanceData.json > extra-master-instance.json
 ```
 
-## Submitting the Assignment
+## Submitting the Exercise
 
 Make sure you commit **only the files requested**, and push your repository to GitHub!
 
